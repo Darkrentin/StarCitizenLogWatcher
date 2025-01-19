@@ -1,0 +1,59 @@
+# Ignore les fichiers binaires et de build
+/bin/
+/obj/
+
+# Fichiers de configuration de Rider
+.idea/
+
+# Fichiers de configuration de Visual Studio
+.vs/
+.vscode/
+
+# Fichiers de débogage
+*.db
+*.log
+*.pdb
+
+# Fichiers temporaires de compilation
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Fichiers temporaires générés par le runtime .NET
+*.exe
+*.dll
+*.app
+*.apk
+*.ipa
+
+# Dossiers de packages NuGet
+/packages/
+
+# Dossiers générés par .NET Core
+/project.lock.json
+/project.fragment.lock.json
+/.vscode/
+
+# Fichiers de cache de Rider
+.idea/.idea/
+.idea/.vcs/
+.idea/modules.xml
+.idea/workspace.xml
+
+# Dossier de build pour les projets .NET Core
+bin/
+obj/
+
+# Cache de dotnet
+.vscode/
+
+# Dossiers pour les tests
+TestResults/
+
+# Ignore les fichiers de configuration de NUnit
+nunit3-console.config
+
+# Cache des fichiers de type dotCover, resharper, etc.
+.idea/.idea/
+
